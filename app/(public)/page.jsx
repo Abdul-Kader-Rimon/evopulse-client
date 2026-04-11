@@ -15,7 +15,7 @@ export default async function PublicHomePage() {
   return (
     <div className="storefront">
   <HomeBanner isAuthenticated={isAuthenticated} />
-  <Slider/>
+  
     </div>
   );
 }
