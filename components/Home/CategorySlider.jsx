@@ -62,9 +62,9 @@ const CategorySlider = () => {
   const duplicatedCategories = [...categories, ...categories, ...categories];
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8">
+    <div className="w-full   mx-auto px-4 py-8">
       {/* প্রিমিয়াম গ্রেডিয়েন্ট ব্যাকগ্রাউন্ড কন্টেইনার */}
-      <div className="relative bg-gradient-to-tr from-indigo-100/60 via-purple-100/50 to-blue-50 border border-white rounded-[2.5rem] p-6 md:p-10 shadow-2xl shadow-indigo-100/30 overflow-hidden">
+      <div className="relative bg-gradient-to-tr from-indigo-100/60 via-purple-100/50 to-blue-50 border border-white rounded-[2.5rem]   shadow-2xl shadow-indigo-100/30 overflow-hidden">
         <div className="w-full overflow-hidden flex items-center relative py-4">
           {/* দুই পাশের ফেডিং শ্যাডো যাতে কার্ডগুলো সাইড থেকে স্মুথলি ভ্যানিশ হয় */}
           <div className="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-indigo-100/50 to-transparent z-10 pointer-events-none" />
