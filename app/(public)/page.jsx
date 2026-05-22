@@ -1,4 +1,5 @@
 ﻿import { auth } from "@/auth";
+import CategorySlider from "@/components/Home/CategorySlider";
  
  
 import PopularProducts from "@/components/Home/PopularProducts";
@@ -21,7 +22,7 @@ export default async function PublicHomePage() {
   <PopularProducts/>
     
       <ProductGrid/>
-       
+       <CategorySlider/>
     </div>
   );
 }
