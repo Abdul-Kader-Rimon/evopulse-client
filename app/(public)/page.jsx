@@ -1,6 +1,9 @@
 ﻿import { auth } from "@/auth";
-import HomeBanner from "@/components/Home/Banner";
-import Slider from "@/components/Home/Slider";
+ 
+ 
+import PopularProducts from "@/components/Home/PopularProducts";
+import ProductGrid from "@/components/Home/ProductGrid";
+ 
  
  
  
@@ -14,8 +17,11 @@ export default async function PublicHomePage() {
 
   return (
     <div className="storefront">
-  <HomeBanner isAuthenticated={isAuthenticated} />
-  
+   
+  <PopularProducts/>
+    
+      <ProductGrid/>
+       
     </div>
   );
 }
